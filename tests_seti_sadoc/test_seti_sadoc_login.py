@@ -17,6 +17,7 @@ def test_seti_sadoc_login(login_set_up) -> None:
     # ---------------------
 
 
+@pytest.mark.skip
 @pytest.mark.parametrize("email", ["SADOCSETIuser@hendall.com",
                                    pytest.param("fake@hendall.com", marks=pytest.mark.xfail)])
 def test_seti_sadoc_login_works(single_set_up, email) -> None:

@@ -1,4 +1,6 @@
 import re
+import time
+
 from playwright.sync_api import Playwright, sync_playwright, expect
 from pom.seti_sadoc_login_page import SetiSadocLoginPage
 
