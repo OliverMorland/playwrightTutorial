@@ -1,0 +1,2 @@
+Generate report html
+pytest --template=html1/index.html --report=report.html
